@@ -1,0 +1,7 @@
+{
+  "uuid": "voxtype-indicator@bird",
+  "name": "Voxtype Recording Indicator",
+  "description": "Panel icon showing voxtype dictation state: dim when idle, red microphone while recording, hourglass while transcribing. Watches the voxtype daemon state file, no polling.",
+  "shell-version": ["48", "49", "50"],
+  "version": 1
+}
