@@ -20,8 +20,8 @@ import * as PopupMenu from 'resource:///org/gnome/shell/ui/popupMenu.js';
 const STATES = {
     idle: { icon: '\u{1F3A4}', style: 'opacity: 0.45;', label: 'in attesa' },
     recording: { icon: '\u{1F3A4}', style: 'color: #ff3b30; font-weight: bold;', label: 'registrazione in corso' },
+    streaming: { icon: '\u{23FA}', style: 'color: #ff3b30; font-weight: bold;', label: 'streaming in corso' },
     transcribing: { icon: '\u{23F3}', style: 'color: #ff9f0a;', label: 'trascrizione sul Mac' },
-    stopped: { icon: '\u{1F3A4}', style: 'opacity: 0.45;', label: 'in attesa' },
 };
 
 export default class VoxtypeIndicatorExtension {
